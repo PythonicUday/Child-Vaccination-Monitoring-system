@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eaf6ff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .login-container {
+        width: 350px;
+        margin: 100px auto;
+        padding: 25px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #b0c4de;
+        text-align: center;
+    }
+
+    h1 {
+        color: #1976d2;
+        font-size: 24px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    input {
+        width: 90%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 95%;
+        padding: 12px;
+        background-color: #1976d2;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #125ca1;
+    }
+    </style>
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <h1>Child Vaccination System</h1>
+    <p>Create your account</p>
+
+    <form action="register_user.php" method="POST">
+
+        <input type="text"
+               name="name"
+               placeholder="Enter your name"
+               required>
+
+        <input type="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+
+        <input type="password"
+               name="password"
+               placeholder="Create password"
+               required>
+
+        <button type="submit">Create Account</button>
+
+    </form>
+
+    <p>Already have an account?</p>
+    <a href="login.php">Login here</a>
+
+</div>
+
+</body>
+</html>

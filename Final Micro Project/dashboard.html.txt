@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content ="width=device-width ,initial-scale=1.0">
+<title>Dashboard - Child Vaccination System</title>
+<head>
+<style>
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #eaf6ff;
+    }
+
+    .sidebar {
+        width: 230px;
+        height: 100vh;
+        background-color: #1976d2;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .sidebar a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px 10px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+    }
+
+    .sidebar a:hover {
+        background-color: #125ca1;
+    }
+<div class="cards">
+
+    <div class="card">
+        <h3>Total Children</h3>
+        <h2>120</h2>
+    </div>
+
+    <div class="card">
+        <h3>Vaccinations Completed</h3>
+        <h2>85</h2>
+    </div>
+
+    <div class="card">
+        <h3>Upcoming Vaccinations</h3>
+        <h2>35</h2>
+    </div>
+
+</div>
+
+</style>
+</head>
+<body>
+<div class="sidebar">
+<h2>Child Vaccination</h2>
+<a href ="dashboard.html">Dashboard</a>
+<a href="child.html">Child Registration</a>
+<a herf="schedule.html">Vaccination Schedule</a>
+<a href="records.html>Vaccination Records</a>
+<a href="reminders.html">Notifications</a>
+<a href="index.html">Logout</a>
+</div>
+<div class="main-content">
+
+    <h1>Dashboard</h1>
+
+    <p>Welcome to Child Vaccination Monitoring System!</p>
+
+<div class="cards">
+    <div class="card">
+        <h3>Total Children</h3>
+        <h2>120</h2>
+    </div>
+
+    <div class="card">
+        <h3>Vaccinations Completed</h3>
+        <h2>85</h2>
+    </div>
+
+    <div class="card">
+        <h3>Upcoming Vaccinations</h3>
+        <h2>35</h2>
+    </div>
+</div>
+
+</div>
+</body>
+
